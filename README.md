@@ -30,3 +30,5 @@ A [Meteor Client](https://meteorclient.com) addon that adds a **New Altening Acc
 
 Requires Java 25 (auto-provisioned by Gradle via the Foojay resolver).
 Output: `build/libs/altgen-0.1.0.jar`.
+
+The addon icon is generated programmatically: `python3 tools/make_icon.py` (requires Pillow).

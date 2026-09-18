@@ -10,6 +10,7 @@
   "contact": {
     "sources": "https://github.com/walktheearth/altgen"
   },
+  "icon": "assets/altgen/icon.png",
   "environment": "client",
   "entrypoints": {
     "meteor": [
