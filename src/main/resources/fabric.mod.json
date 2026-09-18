@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "altgen",
+  "version": "${version}",
+  "name": "AltGen",
+  "description": "Adds a button to the kick/ban screen that generates and logs into a fresh TheAltening account, then reconnects.",
+  "authors": [
+    "walktheearth"
+  ],
+  "contact": {
+    "sources": "https://github.com/walktheearth/altgen"
+  },
+  "environment": "client",
+  "entrypoints": {
+    "meteor": [
+      "com.altgen.AltGen"
+    ]
+  },
+  "mixins": [
+    "altgen.mixins.json"
+  ],
+  "custom": {
+    "meteor-client:color": "130,80,240",
+    "modmenu": {
+      "parent": {
+        "id": "meteor-client"
+      }
+    }
+  },
+  "depends": {
+    "java": ">=${jdk_version}",
+    "minecraft": "${minecraft_version}",
+    "meteor-client": "*"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "required": true,
+  "package": "com.altgen.mixin",
+  "compatibilityLevel": "JAVA_25",
+  "client": [
+    "DisconnectedScreenMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
