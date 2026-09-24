@@ -13,7 +13,6 @@ A [Meteor Client](https://meteorclient.com) addon that adds a **New Altening Acc
 - When you get kicked or banned, the disconnect screen shows a **New Altening Account** button below the vanilla buttons.
 - Clicking it opens a small Meteor-style window: click **Generate & Login**.
 - If you were connected to a server, AltGen reconnects automatically after logging in.
-- You can also reach the login screen any time with `.altgen` — wait, there is no command. Future idea.
 
 ## Notes
 
